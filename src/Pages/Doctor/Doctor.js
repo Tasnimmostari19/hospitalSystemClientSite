@@ -7,7 +7,7 @@ const Doctor = ({ doctor }) => {
     const { name, img, specialist, _id } = doctor;
     const handleClick = id => {
         navigate(`/doctor/${id}`)
-        console.log('shss');
+        // console.log('shss');
     }
 
     return (
