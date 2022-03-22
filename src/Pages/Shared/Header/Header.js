@@ -8,7 +8,7 @@ const Header = () => {
         // {name:"",link:'/'},
     ]
     return (
-        <div className='md:flex items-center justify-between bg-rose-500 w-full top-0 left-0 px-10 py-4'>
+        <div className='md:flex items-center justify-between bg-orange-300 w-full top-0 left-0 px-10 py-4'>
             <div>
                 <span className='text-2xl'>Hospital System</span>
             </div>

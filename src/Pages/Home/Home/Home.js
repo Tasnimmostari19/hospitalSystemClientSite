@@ -1,14 +1,16 @@
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import Covid from '../Covid/Covid';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
-        <div className='bg-neutral-900 h-screen w-full top-0 left-0'>
+        <div className=''>
 
             <Header></Header>
             <Services></Services>
+            <Covid></Covid>
             <Footer></Footer>
         </div>
     );
